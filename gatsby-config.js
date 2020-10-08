@@ -35,7 +35,7 @@ module.exports = {
             options: {
               typeName: `PointOfInterest`,
               fieldName: `poi`,
-              url: `http://localhost:3003`
+              url: process.env.NEO4J_GRAPHQL_API
             }
           },
           {
